@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+html, body {
+  overflow: hidden;
+}
+
+body {
+  background-color: #111111;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.subtitle {
+  color: #dad2cf;
+}
+
+p {
+  color: #dad2cf;
+}
+
+a {
+  color: #929496;
+}
+
+a:hover {
+  color: #c1c1c1;
+}
+
+canvas {
+  display:block;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-body {
+  z-index: 5;
+}
+
+#particles-js canvas {
+  position: absolute;
+  height: 100vh;
+  z-index: 4;
+}
